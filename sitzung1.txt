@@ -45,3 +45,4 @@ Java-Webapps:
     Internetverbindung notwendig
     W3-Standards werden nicht von allen Akteuren eingehalten.
   
+Literaturempfehlungen: spinfo->lehre->seminarseite
