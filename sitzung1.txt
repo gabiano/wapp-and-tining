@@ -1,0 +1,47 @@
+Webapplikationen  M. Atanassov
+
+Java-Webapps:
+  Komponenten:
+    Client-Server-Modell
+      Server-Rechner steht irgendwo in einem RZ
+      Client Modell
+      Kommunizieren über ein protokoll bspw. HTTP
+    Webclient = Webbrowser
+    Webserver = Server, der Anfragen entgegennimmt
+      Skizze:
+      Anfrage (request) in Form einer URL + Antwort (response)
+        request: http://cat-bounce.com/(index.html = default)
+        http://imdb.com/news/top/ (=+ index.html)
+        http://www.kstw.de/index.php?option=com_speiseplan&id=182&Itemid=121&mid=10&zeit=heute&lang=de
+      Response
+        HTML
+        Bilder
+        CSS
+        JavaScript
+        Bytestreams (bei Videos.)
+    (-> cat-bounce.com)
+    Frameworks: (Programmieren nur in Leerstellen.)
+    Library: (Wir rufen die Library auf, die Library füllt unsere Codelücken.)
+    Model View Controller Pattern
+      MVC Frameworks für Java/JVM: (all examples in use)
+        Spring MVC
+        Gooogle Web Toolkit GWT
+        Struts (populär)
+        Wicket
+        Grails (Groovy)
+        Play (Scala)
+    
+    Servlet:
+      Java-Klasse/Objekt-Instanz eines Webservers, die die Anfragen eines Clients annimmt und beantwortet.
+      Servlets werden in Servlet-Containern ausgeführt.
+        Webserver mit Servlet-Containern sind
+          Apache
+        
+        
+      
+  Vorteile von Web-Apps:
+    Plattformunabhängigkeit
+  Nachteile:
+    Internetverbindung notwendig
+    W3-Standards werden nicht von allen Akteuren eingehalten.
+  
